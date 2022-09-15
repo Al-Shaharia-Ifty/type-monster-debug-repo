@@ -9,5 +9,44 @@
   </head>
   <body>
     <a class="blog" href="index.html">Home</a>
+    <div class="question">
+      <h2>What is difference between Localstorage vs Sessionstorage</h2>
+      <p>
+        SessionStorage is similar to localStorage. The difference is that while
+        data in localStorage doesn't expire, data in sessionStorage is cleared
+        when the page session ends. Whenever a document is loaded in a
+        particular tab in the browser, a unique page session gets created and
+        assigned to that particular tab.
+      </p>
+    </div>
+    <div class="question">
+      <h2>What is difference between global scope and block scopee</h2>
+      <p>
+        The main difference between the local scope and block scope is that the
+        block statements (e.g. if conditions or for loops), don't create a new
+        scope. So the var keyword will not have an effect, because the variables
+        are still in the same scope. ES6 introduced block scope by using the let
+        and const keywords.
+      </p>
+    </div>
+    <div class="question">
+      <h2>How to work javascript event loop</h2>
+      <p>
+        The Event Loop has one simple job — to monitor the Call Stack and the
+        Callback Queue. If the Call Stack is empty, the Event Loop will take the
+        first event from the queue and will push it to the Call Stack, which
+        effectively runs it. Such an iteration is called a tick in the Event
+        Loop.
+      </p>
+    </div>
+    <div class="question">
+      <h2>How many ways are undefined we found in javascript</h2>
+      <p>
+        There are three property attributes of undefined. Writable, Enumerable,
+        Configurable. There are also syntex undefined,and Description undefined
+        is a property of the global object. That is, it is a variable in global
+        scope. The initial value of undefined is the primitive value undefined.
+      </p>
+    </div>
   </body>
 </html>
